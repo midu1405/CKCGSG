@@ -12,7 +12,7 @@ export const PLAYS: Project[] = [
   },
   {
     id: 'jericho',
-    title: 'Bức tường Jericho',
+    title: 'BỨC TƯỜNG JERICO',
     description: 'Vở ca kịch kể về câu chuyện hùng vĩ trong Kinh Thánh về sự sụp đổ của thành Jericho.',
     content: 'Vở ca kịch "Bức tường Jericho" là một trong những dự án tâm huyết nhất của nhóm trong năm nay. Vở diễn tái hiện lại hành trình đức tin của dân Israel dưới sự dẫn dắt của Joshua. Với âm nhạc hào hùng và những màn vũ đạo công phu, chúng tôi hy vọng sẽ mang đến cho khán giả một trải nghiệm tâm linh sâu sắc về sức mạnh của sự vâng phục và lòng tin vào Thiên Chúa.',
     imageUrl: 'https://picsum.photos/seed/jericho/800/600',
