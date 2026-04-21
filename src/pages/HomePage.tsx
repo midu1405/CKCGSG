@@ -7,7 +7,7 @@ import { Project } from '../types';
 import Modal from '../components/Modal';
 import ProjectCard from '../components/ProjectCard';
 import SectionHeader from '../components/SectionHeader';
-
+import { Link } from 'react-router-dom';
 export default function HomePage() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
@@ -123,6 +123,12 @@ export default function HomePage() {
                 <ProjectCard key={project.id} project={project} onClick={setSelectedProject} />
               ))}
             </div>
+            
+<div className="mt-8 text-center">
+  <Link to="/dac-lo" className="inline-flex items-center gap-2 bg-gold text-black px-8 py-3 rounded-full font-bold hover:bg-white transition-all">
+    XEM CHI TIẾT VỞ ĐẮC LỘ
+  </Link>
+</div>
           </div>
           <div>
             <h3 className="text-2xl font-semibold serif mb-8 flex items-center gap-3">
